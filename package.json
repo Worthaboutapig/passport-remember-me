@@ -1,8 +1,16 @@
 {
   "name": "passport-remember-me-extended",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Remember Me cookie authentication strategy for Passport.",
-  "keywords": ["passport", "cookie", "persistent", "rememberme", "auth", "authn", "authentication"],
+  "keywords": [
+    "passport",
+    "cookie",
+    "persistent",
+    "rememberme",
+    "auth",
+    "authn",
+    "authentication"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/dereklakin/passport-remember-me"
@@ -15,10 +23,12 @@
     "email": "derek.lakin@outlook.com",
     "url": "http://www.dereklakin.com/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
   "dependencies": {
     "pkginfo": "0.2.x",
@@ -31,5 +41,7 @@
   "scripts": {
     "test": "NODE_PATH=./lib node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
